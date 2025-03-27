@@ -3,6 +3,6 @@
 int main(){
     int a;
     scanf("%s",&a);
-    printf("%d",a);
+    printf("ASCII Value: %d",a);
     return 0;
 }
