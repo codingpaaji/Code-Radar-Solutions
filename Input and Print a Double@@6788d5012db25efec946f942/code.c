@@ -3,11 +3,6 @@
 int main(){
     float a;
     scanf("%f",&a);
-    if(a=12345.6789){
-        printf("You entered: 12345.6787");
-    }
-    else{
-        printf("You entered: %.4f",a);
-    }
+    printf("You entered: %.4f",a);
     return 0;
 }
